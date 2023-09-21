@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tumakov.exercises_2", "tumakov.exercises_2\tumakov.exercises_2.csproj", "{CD049308-64A0-4D11-96AF-4E78489A0CB7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tumakov_Exercises_3", "Tumakov_Exercises_3\Tumakov_Exercises_3.csproj", "{14BC6F46-E858-4319-82EF-A8F3115B4347}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CD049308-64A0-4D11-96AF-4E78489A0CB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD049308-64A0-4D11-96AF-4E78489A0CB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD049308-64A0-4D11-96AF-4E78489A0CB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14BC6F46-E858-4319-82EF-A8F3115B4347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14BC6F46-E858-4319-82EF-A8F3115B4347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14BC6F46-E858-4319-82EF-A8F3115B4347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14BC6F46-E858-4319-82EF-A8F3115B4347}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

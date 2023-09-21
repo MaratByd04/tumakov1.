@@ -16,6 +16,8 @@ namespace tumakov.exercises_2
             Console.WriteLine("Введите свое имя.");
             string userName = Console.ReadLine();
             Console.WriteLine("Добро пожаловать, " +  userName);
+            Console.ReadKey();
+            Console.Clear();
 
             Console.WriteLine("\nУпражнение 2. Деление одного числа на другое. \n");
 
@@ -27,6 +29,8 @@ namespace tumakov.exercises_2
                 {
                 Console.WriteLine(resultOfDivision);
                 }
+            Console.ReadKey(); 
+            Console.Clear();
 
             Console.WriteLine("\nДомашнее задание 2.2. Решение квадратного уравнения. \n");
 
@@ -52,6 +56,8 @@ namespace tumakov.exercises_2
             {
                 Console.WriteLine("Данное уравнение не имеет корней.");
             }
+            Console.ReadKey ();
+            Console.Clear();
                         
 
 
