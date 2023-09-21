@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,18 +17,50 @@ namespace tumakov.exercises_2
             string userName = Console.ReadLine();
             Console.WriteLine("Добро пожаловать, " +  userName);
 
-            Console.WriteLine("Упражнение 2. Деление одного числа на другое. \n");
+            Console.WriteLine("\nУпражнение 2. Деление одного числа на другое. \n");
 
             Console.WriteLine("Введите два целых числа.");
-            int a = int.Parse(Console.ReadLine());
-            int b = int.Parse(Console.ReadLine());
-            double resultOfDivision = a / b;
-            if (a!=0 && b!=0)
+            int num1 = int.Parse(Console.ReadLine());
+            int num2 = int.Parse(Console.ReadLine());
+            double resultOfDivision = num1 / num2;
+            if (num1!=0 && num2!=0)
                 {
                 Console.WriteLine(resultOfDivision);
                 }
-            Console.WriteLine("")
+
+            Console.WriteLine("\nДомашнее задание 2.2. Решение квадратного уравнения. \n");
+
             
+            Console.WriteLine("Введите первый коэффициент.");
+            int a = int.Parse(Console.ReadLine());
+            Console.WriteLine("Введите второй коэффициент.");
+            int b = int.Parse(Console.ReadLine());
+            Console.WriteLine("Введите третий коэффициент.");
+            int c = int.Parse(Console.ReadLine());
+            
+            int D = b * b - 4 * c * a;
+            if (D>0)
+            {
+                Console.WriteLine((-b + Math.Sqrt(D))/a*2);
+                Console.WriteLine((-b -  Math.Sqrt(D))/a*2);
+            }
+            else if (D == 0)
+            {
+                Console.WriteLine(-b/a*2);
+            }
+            else
+            {
+                Console.WriteLine("Данное уравнение не имеет корней.");
+            }
+                        
+
+
+
+
+
+
+
+
 
 
         }
