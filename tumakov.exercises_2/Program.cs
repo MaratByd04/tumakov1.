@@ -19,7 +19,7 @@ namespace tumakov.exercises_2
             Console.ReadKey();
             Console.Clear();
 
-            Console.WriteLine("\nУпражнение 2. Деление одного числа на другое. \n");
+            Console.WriteLine("\nУпражнение 2.2. Деление одного числа на другое. \n");
 
             Console.WriteLine("Введите два целых числа.");
             int num1 = int.Parse(Console.ReadLine());
@@ -32,9 +32,34 @@ namespace tumakov.exercises_2
             Console.ReadKey(); 
             Console.Clear();
 
+            Console.WriteLine("Домашнее заадние 2.1. Прочитать букву с экрана и вывести на печать следующую за ней букву в алфавитном порядке.");
+
+            Console.WriteLine("Введите любую букву русского или английского алфавита.");
+            var letter = char.ToLower(Console.ReadKey().KeyChar);
+            for (var i = 1; i <= 1; i++)
+            {
+                if (letter == 'z')
+                {
+                    letter = 'a';
+                    Console.WriteLine("\nАлфавит кончился, перебор начат заново\n" + letter);
+
+                }
+                else if (letter == 'я')
+                {
+                    letter = 'а';
+                    Console.WriteLine("\nАлфавит кончился, перебор начат заново\n" + letter);
+                }
+                else
+                {
+                    letter = (char)(letter + 1);
+                    Console.WriteLine($"\n{letter}");
+                }
+            }
+                Console.ReadKey();
+                Console.Clear();
+
             Console.WriteLine("\nДомашнее задание 2.2. Решение квадратного уравнения. \n");
 
-            
             Console.WriteLine("Введите первый коэффициент.");
             int a = int.Parse(Console.ReadLine());
             Console.WriteLine("Введите второй коэффициент.");
